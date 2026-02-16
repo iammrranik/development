@@ -1,0 +1,10 @@
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\bin\Debug\WindowsFormsAppPro0.exe.config
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\bin\Debug\WindowsFormsAppPro0.exe
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\bin\Debug\WindowsFormsAppPro0.pdb
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.csproj.AssemblyReference.cache
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.Properties.Resources.resources
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.csproj.GenerateResource.cache
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.csproj.CoreCompileInputs.cache
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.exe
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.pdb
+C:\Users\madma\source\repos\WindowsFormsAppSln0\WindowsFormsAppPro0\obj\Debug\WindowsFormsAppPro0.FormStart.resources

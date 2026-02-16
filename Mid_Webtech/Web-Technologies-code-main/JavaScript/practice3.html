@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<form method="POST" onsubmit="return validateForm(event)">
+		<label for="pname">Product Name: </label>
+		<input type="text" name="pname" id="pname">
+		<!-- <br> <br> -->
+		<p id="pmsg"></p>
+
+		<label for="price">Price: </label>
+		<input type="number" name="price" id="price">
+		<!-- <br> <br> -->
+		<p id="prmsg"></p>
+
+		<label for="stock">Quantity in Stock: </label>
+		<input type="number" name="stock" id="stock">
+		<!-- <br> <br> -->
+		<p id="qmsg"></p>
+
+		<select name="category" id="category">
+			<option value="">Select a fol</option>
+			<option value="kola">Kola</option>
+			<option value="apel">Apel</option>
+			<option value="kathal">Kathal</option>
+			<option value="aam">Aam</option>
+		</select>
+		<!-- <br> <br> -->
+		<p id="cmsg"></p>
+
+		<label>Date: </label>
+		<input type="date" name="date" id="date">
+		<!-- <br> <br> -->
+		<p id="dmsg"></p>
+
+		<input type="submit" name="submit" value="submit">
+
+
+	</form>
+
+	<script src="practice3.js"></script>
+
+</body>
+</html>

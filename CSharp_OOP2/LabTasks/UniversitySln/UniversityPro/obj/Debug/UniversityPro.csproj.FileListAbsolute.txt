@@ -1,0 +1,7 @@
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\obj\Debug\UniversityPro.csproj.AssemblyReference.cache
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\obj\Debug\UniversityPro.csproj.CoreCompileInputs.cache
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\bin\Debug\UniversityPro.exe.config
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\bin\Debug\UniversityPro.exe
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\bin\Debug\UniversityPro.pdb
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\obj\Debug\UniversityPro.exe
+C:\Users\madma\source\repos\UniversitySln\UniversityPro\obj\Debug\UniversityPro.pdb

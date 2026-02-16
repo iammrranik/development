@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B47BB39F-F881-41E8-9207-CC12AF2ED8FE}|ConsoleAppTPro\\ConsoleAppTPro.csproj|f:\\development\\java\\source\\repos\\consoleapptsln\\consoleapptpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47BB39F-F881-41E8-9207-CC12AF2ED8FE}|ConsoleAppTPro\\ConsoleAppTPro.csproj|solutionrelative:consoleapptpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47BB39F-F881-41E8-9207-CC12AF2ED8FE}|ConsoleAppTPro\\ConsoleAppTPro.csproj|F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\consoleapptpro\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47BB39F-F881-41E8-9207-CC12AF2ED8FE}|ConsoleAppTPro\\ConsoleAppTPro.csproj|solutionrelative:consoleapptpro\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47BB39F-F881-41E8-9207-CC12AF2ED8FE}|ConsoleAppTPro\\ConsoleAppTPro.csproj|F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\consoleapptpro\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47BB39F-F881-41E8-9207-CC12AF2ED8FE}|ConsoleAppTPro\\ConsoleAppTPro.csproj|solutionrelative:consoleapptpro\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34FA4EA-F82D-40F7-A443-A4BAB98EBFE4}|ConsoleAppT1\\ConsoleAppT1.csproj|F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\consoleappt1\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34FA4EA-F82D-40F7-A443-A4BAB98EBFE4}|ConsoleAppT1\\ConsoleAppT1.csproj|solutionrelative:consoleappt1\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34FA4EA-F82D-40F7-A443-A4BAB98EBFE4}|ConsoleAppT1\\ConsoleAppT1.csproj|F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\consoleappt1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34FA4EA-F82D-40F7-A443-A4BAB98EBFE4}|ConsoleAppT1\\ConsoleAppT1.csproj|solutionrelative:consoleappt1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppT1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppT1\\Program.cs",
+              "ToolTip": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppT1\\Program.cs",
+              "RelativeToolTip": "ConsoleAppT1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:14:22.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Building.cs",
+              "DocumentMoniker": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppT1\\Building.cs",
+              "RelativeDocumentMoniker": "ConsoleAppT1\\Building.cs",
+              "ToolTip": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppT1\\Building.cs",
+              "RelativeToolTip": "ConsoleAppT1\\Building.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:14:22.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppTPro\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTPro\\Program.cs",
+              "ToolTip": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppTPro\\Program.cs",
+              "RelativeToolTip": "ConsoleAppTPro\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:14:22.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppTPro\\Person.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTPro\\Person.cs",
+              "ToolTip": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppTPro\\Person.cs",
+              "RelativeToolTip": "ConsoleAppTPro\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:14:22.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppTPro\\Student.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTPro\\Student.cs",
+              "ToolTip": "F:\\Development\\Java\\source\\repos\\ConsoleAppTSln\\ConsoleAppTPro\\Student.cs",
+              "RelativeToolTip": "ConsoleAppTPro\\Student.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:14:22.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

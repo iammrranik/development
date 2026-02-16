@@ -1,0 +1,16 @@
+date,city,product,units,unit_price,discount
+2025-02-01,New York,Laptop,2,1200,0.10
+2025-02-02,Los Angeles,Phone,5,850,0.05
+2025-02-03,Chicago,Tablet,3,480,0.00
+2025-02-04,Houston,Monitor,4,310,0.12
+2025-02-05,Phoenix,Keyboard,8,55,0.00
+2025-02-06,Philadelphia,Mouse,12,25,0.08
+2025-02-07,San Antonio,Laptop,1,1300,0.15
+2025-02-08,San Diego,Phone,6,820,0.05
+2025-02-09,Dallas,Tablet,5,460,0.10
+2025-02-10,San Jose,Monitor,2,340,0.00
+2025-02-11,Austin,Keyboard,10,50,0.05
+2025-02-12,Seattle,Mouse,15,23,0.00
+2025-02-13,Denver,Laptop,3,1250,0.20
+2025-02-14,Boston,Phone,4,800,0.10
+2025-02-15,Miami,Tablet,6,470,0.07

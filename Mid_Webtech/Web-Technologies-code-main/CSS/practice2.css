@@ -1,0 +1,22 @@
+/* Simple selectors */
+p { color: blue; }              /* Element selector */
+#main-title { color: red; }     /* ID selector */
+.subtitle { color: green; }     /* Class selector */
+
+/* Combinator selector */
+div p { color: purple; }        /* Target p inside div */
+
+/* Pseudo-class */
+button:hover { color: orange; } /* Change text color on hover */
+
+/* Pseudo-element */
+p::first-letter { color: brown; } /* First letter styled */
+
+/* Attribute selector */
+input[type="text"] { color: darkcyan; } /* Style text input */
+
+/* Universal selector */
+* { font-family: Arial; }       /* Apply to all elements */
+
+/* Group selector */
+h1, h2, p { background: lightgray; } /* Apply same background */

@@ -1,0 +1,47 @@
+/* Sticky */
+.sticky-box {
+  position: sticky;  /* Sticks to top when scrolling */
+  top: 0;
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Relative */
+.relative-box {
+  position: relative; /* Moves relative to normal position */
+  top: 200px;
+  left: 30px;
+  background: lightgreen;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Relative container */
+.relative-container {
+  position: relative; /* Parent for absolute */
+  margin-top: 40px;
+  background: lightyellow;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+/* Absolute */
+.absolute-box {
+  position: absolute; /* Positioned relative to parent container */
+  top: 20px;
+  right: 20px;
+  background: pink;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Fixed */
+.fixed-box {
+  position: fixed; /* Always in same place on screen */
+  bottom: 20px;
+  right: 20px;
+  background: orange;
+  padding: 10px;
+  border: 1px solid black;
+}

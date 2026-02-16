@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comprehensive Form Example</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header, footer { background-color: #333; color: white; padding: 10px 20px; text-align: center; }
+        main { padding: 20px; max-width: 800px; margin: 20px auto; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+        form label { display: block; margin-top: 15px; font-weight: bold; }
+        form input[type="text"], form input[type="email"], form select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .radio-group label { display: inline-block; font-weight: normal; margin-right: 20px; }
+        .form-actions button { padding: 10px 15px; margin-right: 10px; border: none; border-radius: 4px; cursor: pointer; }
+        #submit-btn { background-color: #28a745; color: white; }
+        #reset-btn { background-color: #dc3545; color: white; }
+        #generic-btn { background-color: #007bff; color: white; margin-top: 20px; }
+        .dom-btn-group button { 
+            padding: 8px 12px; 
+            margin: 5px; 
+            background-color: #6c757d; 
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer;
+        }
+        .dom-btn-group p { 
+            margin: 10px 0; 
+            font-size: 0.9em;
+            color: #666;
+            border-bottom: 1px dashed #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>User Interaction Page</h1>
+    </header>
+
+    <main>
+        
+        <h2>Welcome to the Survey Section</h2>
+        <p>
+            Please fill out the form below to provide your feedback. 
+            All fields marked with an asterisk (<span style="color: red;">*</span>) are **required**.
+        </p>
+        
+        <hr>
+
+        <form id="form1" action="" method="POST" onsubmit="submitForm(event)">
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="full-name">Full Name <span style="color: red;">*</span>:</label>
+                <input type="text" id="full-name" name="fullName" required>
+                
+                <label for="contact-email">Email <span style="color: red;">*</span>:</label>
+                <input type="email" id="contact-email" name="contactEmail" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback Details</legend>
+
+                <label for="service-rating">Service Rating:</label>
+                <select id="service-rating" name="rating">
+                    <option value="excellent">Excellent</option>
+                    <option value="good" selected>Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+
+                <label style="margin-top: 20px;">Would you recommend us? <span style="color: red;">*</span></label>
+                <div class="radio-group">
+                    <input type="radio" id="recommend-yes" name="recommend" value="yes" required>
+                    <label for="recommend-yes">Yes</label>
+                    
+                    <input type="radio" id="recommend-maybe" name="recommend" value="maybe">
+                    <label for="recommend-maybe">Maybe</label>
+
+                    <input type="radio" id="recommend-no" name="recommend" value="no">
+                    <label for="recommend-no">No</label>
+                </div>
+                
+                <label style="margin-top: 20px;">Receive Updates?</label>
+                <input type="checkbox" id="updates-check" name="newsletter" value="subscribed">
+                <label for="updates-check" style="display: inline-block;">Yes, send me email updates.</label>
+            </fieldset>
+
+            <div class="form-actions" style="margin-top: 25px;">
+                <button type="submit" id="submit-btn">Submit Feedback</button>
+                
+                <button type="reset" id="reset-btn">Clear Form</button>
+            </div>
+            
+        </form>
+        <hr>
+
+        <h1 id="title">Original Title</h1>
+        
+        <hr>
+        <button type="button" id="generic-btn">Click for a Pop-up (JS Action)</button>
+        <hr>
+
+
+        <div class="dom-btn-group">
+            <p id="p-separator-1">Separator 1: Target this line to change its color.</p>
+            <button id="btn-1" class="data-op-btn" data-action="toggle">Button 1</button>
+            
+            <p id="p-separator-2">Separator 2: Target this line to change its text content.</p>
+            <img height="300px" alt="Placeholder for an image to be manipulated by JavaScript" id="image1">
+            <br>
+            <button id="btn-2" class="data-op-btn" data-action="add-class">Button 2</button>
+            
+            <p id="p-separator-3">Separator 3: Target this line to hide it.</p>
+            <button id="btn-3" class="data-op-btn" data-action="remove-element">Button 3</button>
+            
+            <p id="p-separator-4">Separator 4: Target this line to append new text.</p>
+            <button id="btn-4" class="data-op-btn" data-action="change-text">Button 4</button>
+            
+            <p id="p-separator-5">Separator 5: Target this line to change its font size.</p>
+            <button id="btn-5" class="data-op-btn" data-action="create-new">Button 5</button>
+            
+            <p id="p-separator-6">Separator 6: Target this line to replace the button's text.</p>
+            <button id="btn-6" class="data-op-btn" data-action="append-to-title">Button 6</button>
+            
+            <p id="p-separator-7">Separator 7: Target this line using `querySelector`.</p>
+            <button id="btn-7" class="data-op-btn" data-action="modify-image">Button 7</button>
+            
+            <p id="p-separator-8">Separator 8: Target this line using `nextElementSibling` from button 7.</p>
+            <button id="btn-8" class="data-op-btn" data-action="change-style">Button 8</button>
+            
+            <p id="p-separator-9">Separator 9: Target this line and change its parent's style.</p>
+            <button id="btn-9" class="data-op-btn" data-action="parent-node">Button 9</button>
+            
+            <p id="p-separator-10">Separator 10: Target this line using `previousElementSibling` from button 10.</p>
+            <button id="btn-10" class="data-op-btn" data-action="sibling-node">Button 10</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Comprehensive Example Site | <a href="#" style="color: #ccc;">Privacy Policy</a></p>
+    </footer>
+    <script src="2.js"></script>
+</body>
+</html>

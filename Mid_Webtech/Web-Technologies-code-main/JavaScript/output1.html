@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>Array Practice Modified</title>
+</head>
+<body>
+ <p>Current Array: <span id="arrayDisplay">[2, 4, 6, 8, 10]</span></p>
+ <button id="squareBtn">Square Values</button>
+ <button id="filterEvenBtn">Filter Evens</button>
+ <button id="shuffleBtn">Shuffle</button>
+ <button id="clearBtn">Clear Array</button>
+
+ <script>
+   let arr = [2, 4, 6, 8, 10];
+   const display = document.getElementById('arrayDisplay');
+
+   function updateDisplay() {
+     display.textContent = JSON.stringify(arr);
+   }
+
+   function squareValues() {
+     arr = arr.map(num => num * num);
+     updateDisplay();
+   }
+
+   function filterEven() {
+     arr = arr.filter(num => num % 2 === 0);
+     updateDisplay();
+   }
+
+   function shuffleArray() {
+     arr = arr.sort(() => Math.random() - 0.5);
+     updateDisplay();
+   }
+
+   function clearArray() {
+     arr = [];
+     updateDisplay();
+   }
+
+   document.getElementById('squareBtn').addEventListener('click', squareValues);
+   document.getElementById('filterEvenBtn').addEventListener('click', filterEven);
+   document.getElementById('shuffleBtn').addEventListener('click', shuffleArray);
+   document.getElementById('clearBtn').addEventListener('click', clearArray);
+
+   updateDisplay();
+ </script>
+</body>
+</html>

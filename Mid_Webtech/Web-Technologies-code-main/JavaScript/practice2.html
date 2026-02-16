@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation</title>
+</head>
+<body>
+  <h1 id="main-title">Hello DOM</h1>
+  <p class="text">This is a paragraph.</p>
+  <p class="text">Another paragraph.</p>
+  <button id="change-btn">Change Content</button>
+  <div id="container"></div>
+<div id="my-container"></div>
+
+<script>
+  // create element
+  const newDiv = document.createElement("div");
+  newDiv.textContent = "I am inside container";
+
+  // find parent container
+  const parent = document.getElementById("my-container");
+
+  // append into that container
+  parent.appendChild(newDiv);
+</script>
+
+  <script>
+    // ===== Fetching Elements =====
+    const title = document.getElementById("main-title");       // by ID
+    const paragraphs = document.getElementsByClassName("text"); // by class
+    const btn = document.querySelector("#change-btn");         // CSS selector
+    const allParas = document.querySelectorAll(".text");       // all matches
+
+    // ===== Changing Content =====
+    title.innerHTML = "Hello <em>World</em>";  // supports HTML
+    title.textContent = "Hello Plain World";   // text only (safer)
+
+    // ===== Changing Styles =====
+    title.style.color = "blue";
+    title.style.fontSize = "28px";
+    title.classList.add("highlight");  // add CSS class
+    title.classList.remove("highlight");
+
+    // ===== Creating & Appending Elements =====
+    const newDiv = document.createElement("div");
+    newDiv.textContent = "I am a new div!";
+    document.body.appendChild(newDiv); // add to end of body
+
+    // Add inside a container
+    const container = document.getElementById("container");
+    const newPara = document.createElement("p");
+    newPara.innerText = "I was added dynamically!";
+    container.appendChild(newPara);
+
+    // ===== Inserting Before/After =====
+    const anotherPara = document.createElement("p");
+    anotherPara.innerText = "Inserted before the first paragraph";
+    container.insertBefore(anotherPara, newPara); // before newPara
+
+    // ===== Removing Elements =====
+    // newPara.remove(); // remove an element directly
+
+    // ===== Event Listeners =====
+    btn.addEventListener("click", () => {
+      title.innerHTML = "Content Changed!";
+      title.style.color = "red";
+    });
+
+    // ===== Attributes =====
+    title.setAttribute("data-info", "header");   // add attribute
+    console.log(title.getAttribute("data-info")); // get attribute
+    title.removeAttribute("data-info");
+
+    // ===== Traversing DOM =====
+    console.log(container.firstChild);  // first child (may include text nodes)
+    console.log(container.firstElementChild); // first element only
+    console.log(container.parentElement); // parent
+    console.log(container.children);     // all child elements
+
+    
+  </script>
+</body>
+</html>

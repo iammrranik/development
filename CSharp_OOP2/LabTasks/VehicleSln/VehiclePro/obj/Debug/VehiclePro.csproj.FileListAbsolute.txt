@@ -1,0 +1,7 @@
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\bin\Debug\VehiclePro.exe.config
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\bin\Debug\VehiclePro.exe
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\bin\Debug\VehiclePro.pdb
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\obj\Debug\VehiclePro.csproj.AssemblyReference.cache
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\obj\Debug\VehiclePro.csproj.CoreCompileInputs.cache
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\obj\Debug\VehiclePro.exe
+C:\Users\madma\source\repos\VehicleSln\VehiclePro\obj\Debug\VehiclePro.pdb

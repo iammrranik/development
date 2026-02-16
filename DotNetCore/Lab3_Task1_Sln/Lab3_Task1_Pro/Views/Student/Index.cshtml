@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h2>Student Table</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Department</td>
+            <td>Cgpa</td>
+            <td>Age Remarks</td>
+            <td>Cgpa Remakes</td>
+            <td>Profile</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Department</td>
+                <td>@item.Cgpa</td>
+                @if(item.Age < 18)
+                {
+                   <td>Minor</td> 
+                }
+                else
+                {
+                    <td>Adult</td>
+                }
+                @if(item.Cgpa < 3.5)
+                {
+                    <td>Average</td>
+                }
+                else
+                {
+                    <td>Excellent</td>
+                }
+                <td><a href="student/profile/@item.Id" class="btn btn-primary">Details</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Example</title>
+  <link rel="stylesheet" href="./practice3.css">
+</head>
+<body>
+
+  <h1>CSS Position Demo</h1>
+
+  <!-- Sticky -->
+  <div class="sticky-box">Sticky (stays at top while scrolling)</div>
+
+  <!-- Relative -->
+  <div class="relative-box">Relative (moved 20px down, 30px right)</div>
+
+  <!-- Absolute inside relative container -->
+  <div class="relative-container">
+    Container (relative)
+    <div class="absolute-box">Absolute (20px from top-right of container)</div>
+  </div>
+
+  <!-- Fixed -->
+  <div class="fixed-box">Fixed (always bottom-right of screen)</div>
+
+  <p>Scroll down to see sticky and fixed in action...</p>
+  <p style="height:1000px;"></p> <!-- Filler to make scroll -->
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Push Pop</title>
+</head>
+<body>
+  <button id="addBtn">Add Item</button>
+  <button id="removeBtn">Remove Last</button>
+  <ul id="list"></ul>
+
+  <script>
+    let items = [];
+    const list = document.getElementById('list');
+
+    function updateList() {
+      list.innerHTML = "";
+      items.forEach((item) => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+      });
+    }
+
+    document.getElementById('addBtn').addEventListener('click', () => {
+      let next = items.length + 1;
+      items.push("Item " + next);
+      updateList();
+    });
+
+    document.getElementById('removeBtn').addEventListener('click', () => {
+      if (items.length > 0) {
+        items.pop();
+        updateList();
+      }
+    });
+
+    updateList();
+  </script>
+</body>
+</html>
