@@ -9,10 +9,10 @@ namespace Lab3_Task2_Pro.Controllers
         public IActionResult Index()
         {
             Random random = new Random();
-            List<Product> products = new List<Product>();
+            List<ProductModel> products = new List<ProductModel>();
             for (int i = 1; i <= 10; i++)
             {
-                products.Add(new Product(
+                products.Add(new ProductModel(
                     i,
                     "Product " + i,
                     i * 10,
@@ -26,7 +26,7 @@ namespace Lab3_Task2_Pro.Controllers
         public IActionResult Details(int id)
         {
             Random random = new Random();
-            Product product = new Product(
+            ProductModel product = new ProductModel(
                 id,
                 "Product " + id,
                 id * 10,

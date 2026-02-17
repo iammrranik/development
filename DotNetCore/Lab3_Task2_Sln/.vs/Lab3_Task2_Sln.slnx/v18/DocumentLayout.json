@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\",
+  "WorkspaceRootPath": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|c:\\users\\madma\\source\\repos\\lab3_task2_sln\\lab3_task2_pro\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|c:\\users\\madma\\source\\repos\\lab3_task2_sln\\lab3_task2_pro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|c:\\users\\madma\\source\\repos\\lab3_task2_sln\\lab3_task2_pro\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|f:\\development\\dotnetcore\\lab3_task2_sln\\lab3_task2_pro\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|c:\\users\\madma\\source\\repos\\lab3_task2_sln\\lab3_task2_pro\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|f:\\development\\dotnetcore\\lab3_task2_sln\\lab3_task2_pro\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|f:\\development\\dotnetcore\\lab3_task2_sln\\lab3_task2_pro\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|f:\\development\\dotnetcore\\lab3_task2_sln\\lab3_task2_pro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637FC4D4-CDDD-2101-980B-F80C15009E04}|Lab3_Task2_Pro\\Lab3_Task2_Pro.csproj|solutionrelative:lab3_task2_pro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,23 +26,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Details.cshtml",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "Lab3_Task2_Pro\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Details.cshtml",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Details.cshtml",
               "RelativeToolTip": "Lab3_Task2_Pro\\Views\\Product\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -51,39 +55,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab3_Task2_Pro\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Index.cshtml",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Lab3_Task2_Pro\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-15T10:42:06.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Lab3_Task2_Pro\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Lab3_Task2_Pro\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T10:39:06.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T10:39:06.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Lab3_Task2_Pro\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\madma\\source\\repos\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Models\\Product.cs",
-              "RelativeToolTip": "Lab3_Task2_Pro\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "Lab3_Task2_Pro\\Models\\ProductModel.cs",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task2_Sln\\Lab3_Task2_Pro\\Models\\ProductModel.cs",
+              "RelativeToolTip": "Lab3_Task2_Pro\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-15T10:34:39.219Z",
               "EditorCaption": ""

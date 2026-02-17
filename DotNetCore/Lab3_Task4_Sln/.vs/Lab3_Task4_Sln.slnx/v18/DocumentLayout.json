@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|f:\\development\\dotnetcore\\lab3_task4_sln\\lab3_task4_pro\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|solutionrelative:lab3_task4_pro\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|f:\\development\\dotnetcore\\lab3_task4_sln\\lab3_task4_pro\\views\\course\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|solutionrelative:lab3_task4_pro\\views\\course\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|f:\\development\\dotnetcore\\lab3_task4_sln\\lab3_task4_pro\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|solutionrelative:lab3_task4_pro\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|f:\\development\\dotnetcore\\lab3_task4_sln\\lab3_task4_pro\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19529C70-144A-262F-6F2F-7ADECEF68032}|Lab3_Task4_Pro\\Lab3_Task4_Pro.csproj|solutionrelative:lab3_task4_pro\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Views\\Course\\List.cshtml",
+              "RelativeDocumentMoniker": "Lab3_Task4_Pro\\Views\\Course\\List.cshtml",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Views\\Course\\List.cshtml",
+              "RelativeToolTip": "Lab3_Task4_Pro\\Views\\Course\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T01:30:38.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab3_Task4_Pro\\Views\\Course\\Index.cshtml",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Lab3_Task4_Pro\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T15:20:49.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Lab3_Task4_Pro\\Controllers\\CourseController.cs",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Lab3_Task4_Pro\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:00:09.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Models\\CourseModel.cs",
+              "RelativeDocumentMoniker": "Lab3_Task4_Pro\\Models\\CourseModel.cs",
+              "ToolTip": "F:\\Development\\DotNetCore\\Lab3_Task4_Sln\\Lab3_Task4_Pro\\Models\\CourseModel.cs",
+              "RelativeToolTip": "Lab3_Task4_Pro\\Models\\CourseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:45:15.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

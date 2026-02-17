@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h2>Employee List</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Designation</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                @if (item.Salary > 50000)
+                {
+                    <td style="color:green">@item.Salary</td>
+                }
+                else
+                {
+                    <td>@item.Salary</td>
+                }
+                @if (item.Designation == "Manager")
+                {
+                    <td><b>@item.Designation</b></td>
+                }
+                else
+                {
+                    <td>@item.Designation</td>
+                }
+            </tr>
+            count++;
+        }
+    </tbody>
+</table>
+
+<h4>Total employee: @count</h4>
+

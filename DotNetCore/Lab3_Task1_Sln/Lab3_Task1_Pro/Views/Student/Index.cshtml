@@ -8,14 +8,14 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <td>Id</td>
-            <td>Name</td>
-            <td>Age</td>
-            <td>Department</td>
-            <td>Cgpa</td>
-            <td>Age Remarks</td>
-            <td>Cgpa Remakes</td>
-            <td>Profile</td>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Department</th>
+            <th>Cgpa</th>
+            <th>Age Remarks</th>
+            <th>Cgpa Remakes</th>
+            <th>Profile</th>
         </tr>
     </thead>
     <tbody>
@@ -27,22 +27,21 @@
                 <td>@item.Age</td>
                 <td>@item.Department</td>
                 <td>@item.Cgpa</td>
+
                 @if(item.Age < 18)
                 {
                    <td>Minor</td> 
-                }
-                else
-                {
+                }else{
                     <td>Adult</td>
                 }
+
                 @if(item.Cgpa < 3.5)
                 {
                     <td>Average</td>
-                }
-                else
-                {
+                }else{
                     <td>Excellent</td>
                 }
+
                 <td><a href="student/profile/@item.Id" class="btn btn-primary">Details</a></td>
             </tr>
         }

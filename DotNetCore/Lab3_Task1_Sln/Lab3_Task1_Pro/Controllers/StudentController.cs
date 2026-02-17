@@ -8,10 +8,10 @@ namespace Lab3_Task1_Pro.Controllers
         public IActionResult Index()
         {
             Random random = new Random();
-            List<Student> students = new List<Student>();
+            List<StudentModel> students = new List<StudentModel>();
             for(int i=1; i<=10; i++)
             {
-                students.Add(new Student(
+                students.Add(new StudentModel(
                         i,
                         "Student " + i,
                         random.Next(10, 30),
@@ -25,12 +25,13 @@ namespace Lab3_Task1_Pro.Controllers
 
         public IActionResult Profile(int id)
         {
-            Student student = new Student(
+            Random random = new Random();
+            StudentModel student = new StudentModel(
                 id,
                 "Student " + id,
                 new Random().Next(10, 30),
                 "Department " + new Random().Next(1, 4),
-                new Random().Next(1, 4) + (float)new Random().NextDouble()
+                random.Next(1, 4) + (float)random.NextDouble()
             );
             return View(student);
         }
