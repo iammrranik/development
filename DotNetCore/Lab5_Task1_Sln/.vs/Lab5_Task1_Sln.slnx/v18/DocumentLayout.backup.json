@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFB0FFD-5039-4396-A5CD-68F1C5DFB152}|Lab5_Task1_Pro\\Lab5_Task1_Pro.csproj|d:\\development\\dotnetcore\\lab5_task1_sln\\lab5_task1_pro\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFB0FFD-5039-4396-A5CD-68F1C5DFB152}|Lab5_Task1_Pro\\Lab5_Task1_Pro.csproj|solutionrelative:lab5_task1_pro\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Views\\Home\\Registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab5_Task1_Pro\\Views\\Home\\Registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFB0FFD-5039-4396-A5CD-68F1C5DFB152}|Lab5_Task1_Pro\\Lab5_Task1_Pro.csproj|d:\\development\\dotnetcore\\lab5_task1_sln\\lab5_task1_pro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFB0FFD-5039-4396-A5CD-68F1C5DFB152}|Lab5_Task1_Pro\\Lab5_Task1_Pro.csproj|solutionrelative:lab5_task1_pro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFB0FFD-5039-4396-A5CD-68F1C5DFB152}|Lab5_Task1_Pro\\Lab5_Task1_Pro.csproj|d:\\development\\dotnetcore\\lab5_task1_sln\\lab5_task1_pro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFB0FFD-5039-4396-A5CD-68F1C5DFB152}|Lab5_Task1_Pro\\Lab5_Task1_Pro.csproj|solutionrelative:lab5_task1_pro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Views\\Home\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab5_Task1_Pro\\Views\\Home\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Program.cs",
+              "RelativeDocumentMoniker": "Lab5_Task1_Pro\\Program.cs",
+              "ToolTip": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Program.cs",
+              "RelativeToolTip": "Lab5_Task1_Pro\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T08:19:06.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Views\\Home\\Registration.cshtml",
+              "RelativeDocumentMoniker": "Lab5_Task1_Pro\\Views\\Home\\Registration.cshtml",
+              "ToolTip": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Views\\Home\\Registration.cshtml",
+              "RelativeToolTip": "Lab5_Task1_Pro\\Views\\Home\\Registration.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-22T08:06:50.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationModel.cs",
+              "DocumentMoniker": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Models\\RegistrationModel.cs",
+              "RelativeDocumentMoniker": "Lab5_Task1_Pro\\Models\\RegistrationModel.cs",
+              "ToolTip": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Models\\RegistrationModel.cs",
+              "RelativeToolTip": "Lab5_Task1_Pro\\Models\\RegistrationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T07:53:00.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Lab5_Task1_Pro\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Lab5_Task1_Pro\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-22T08:18:34.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lab5_Task1_Pro\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Development\\DotNetCore\\Lab5_Task1_Sln\\Lab5_Task1_Pro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lab5_Task1_Pro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA2wCQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T07:50:01.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
