@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+
+<form method="post" action="">
+    <label for="Username" class="form-label">Username :</label>
+    <input type="text" id="username" name="Username" placeholder="Username" class="form-control" />
+    <br />
+    <span class="bg-danger">@Html.ValidationMessage("Username")</span>
+
+    <label for="Name" class="form-label">Name :</label>
+    <input type="text" id="name" name="Name" placeholder="Name" class="form-control" />
+    <br />
+    <span class="bg-danger">@Html.ValidationMessage("Name")</span>
+
+    <label for="Password" class="form-label">Password :</label>
+    <input type="password" id="password" name="Password" placeholder="Password" class="form-control" />
+    <br />
+    <span class="bg-danger">@Html.ValidationMessage("Password")</span>
+    <br />
+
+    <label for="Gender" class="form-label">Gender :  </label>
+    <input type="radio" id="male" name="Gender" value="Male" class="form-text"/> Male
+    <input type="radio" id="female" name="Gender" value="Female" class="form-text" /> Female
+    <br />
+
+    <label for="Department" class="form-label">Department :</label>
+    <select id="department" name="Department" class="form-select">
+        <option disabled selected>Select Department</option>
+        <option value="HR">HR</option>
+        <option value="IT">IT</option>
+        <option value="Finance">Finance</option>
+    </select>
+    <br>
+
+    
+
+    <input type="submit" value="Register" class="btn btn-primary" />
+</form>
